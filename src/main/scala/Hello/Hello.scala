@@ -10,11 +10,23 @@ object Hello {
   def main(args: Array[String]): Unit = {
     val details = new Details()
 
-    details.print(name, company, age)
+//    details.print(name, company, age)
     val a: Int = 10
     val b: Int = 20
 
-    println("Sum: " + (a + b))
+//    println("Sum: " + (a + b))
+//    val conditional = new Conditional()
+    Conditional.conditionalFunction()
+    val loops = new Loops()
+
+    loops.forLoop()
+    loops.whileLoop()
+    loops.breakLoops()
+//    print()
+  }
+
+  def print(): Unit = {
+    println("Hello")
   }
 }
 
