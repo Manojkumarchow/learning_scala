@@ -7,22 +7,18 @@ object Hello {
   var age = 23
   var company = "TechMojo Solutions"
 
-  def main (args : Array[String]): Unit = {
+  def main(args: Array[String]): Unit = {
     val details = new Details()
 
-//    details.print(name, company, age)
-    val MANOJ: Int = 10
+    details.print(name, company, age)
+    val a: Int = 10
     val b: Int = 20
 
-    var NAME = "MANOJ"
-
-
-    println("Sum: " + (MANOJ + b))
+    println("Sum: " + (a + b))
   }
 }
 
 class Details {
-
 
   def print(name: String, company: String, age: Int): Unit = {
     println("Hello " + name)
