@@ -1,4 +1,4 @@
-package Hello
+package code
 
 object Hello {
 
@@ -26,14 +26,14 @@ object Hello {
   }
 
   def print(): Unit = {
-    println("Hello")
+    println("code")
   }
 }
 
 class Details {
 
   def print(name: String, company: String, age: Int): Unit = {
-    println("Hello " + name)
+    println("code " + name)
     println("Company " + company)
     println("Age " + age)
   }

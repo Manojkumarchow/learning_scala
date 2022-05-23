@@ -1,4 +1,4 @@
-package Hello
+package code
 
 object Conditional {
   def conditionalFunction(): Unit = {
