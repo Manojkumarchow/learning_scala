@@ -20,8 +20,8 @@ object Hello {
     val loops = new Loops()
 
     loops.forLoop()
-    loops.whileLoop()
-    loops.breakLoops()
+//    loops.whileLoop()
+//    loops.breakLoops()
 //    print()
   }
 

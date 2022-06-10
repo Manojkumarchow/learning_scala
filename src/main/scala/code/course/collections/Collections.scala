@@ -30,6 +30,7 @@ class Collections() {
   println(vector.take(20))
   println(set.zip(set2))
   println(set.zip(vector))
+  println(list.toString)
   val l: List[Int] = List()
 
   println(l.size)
